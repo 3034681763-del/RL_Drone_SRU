@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Native build outputs
+build/
+dist/
+*.egg-info/
+*.so
+*.o
+*.bak
+
+# Training outputs and local datasets
+checkpoints/
+artifacts/
+logs/
+runs/
+.run_diag/
+generated_maps*/
+precomputed_maps*/
+tmp_precompute_test/
+*.pth
+events.out.tfevents.*
+
+# Generated visualizations
+preview_map.html
+*.mp4
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+
